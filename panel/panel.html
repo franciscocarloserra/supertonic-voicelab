@@ -1,0 +1,50 @@
+<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Supertonic VoiceLab</title>
+<style>
+:root{--bg:#0b0c10;--card:#14161c;--fg:#ececec;--mut:#7d8390;--acc:#7cf2b0;--acc2:#5ab0ff;--line:#23272f}
+*{box-sizing:border-box}body{background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,sans-serif;max-width:780px;margin:0 auto;padding:28px 16px}
+header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}h1{font-size:22px;margin:0;letter-spacing:.2px}h1 b{color:var(--acc);font-weight:700}
+.sub{color:var(--mut);font-size:12.5px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.hero{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.hero .big{font-size:15px;padding:9px 16px}
+label.s{display:flex;gap:10px;align-items:center;margin:4px 0}label.s .n{width:88px}label.s .lim{width:64px;color:var(--mut);font-size:11px;text-align:right;font-variant-numeric:tabular-nums}
+input[type=range]{flex:1;accent-color:var(--acc);height:22px}.v{width:44px;text-align:right;font-variant-numeric:tabular-nums;color:var(--acc)}
+.grp,details summary{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.09em;margin:10px 0 4px}details summary{cursor:pointer}
+textarea{width:100%;background:#08090c;color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:9px;font:inherit;resize:vertical}
+button,select,input[type=text]{background:#1f232b;color:var(--fg);border:1px solid #323844;border-radius:8px;padding:6px 12px;font:inherit;cursor:pointer}
+button:hover{border-color:var(--acc)}button.p{background:var(--acc);color:#05130c;border-color:var(--acc);font-weight:600}button.b{background:var(--acc2);color:#031020;border-color:var(--acc2);font-weight:600}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}#st{color:var(--acc);font-size:12px}#info{color:var(--mut);font-size:12px;margin-top:4px}
+canvas{width:100%;height:76px;background:#07080a;border-radius:8px;display:block;margin-top:10px}audio{width:100%;margin-top:6px;filter:invert(.9) hue-rotate(180deg)}
+.chk{display:inline-flex;gap:6px;align-items:center;color:var(--mut);margin-left:auto}
+</style>
+<header><h1>Supertonic <b>VoiceLab</b></h1><span class=sub style="margin:0">new voices for Supertonic-3 · no retraining · CPU</span></header>
+<div class=sub>Pick a base voice, morph it toward another, nudge the labeled sliders. Every range was measured so the voice never breaks. Hit <b style="color:var(--acc2)">✦ random voice</b> for a new one in one click, then download the pack.</div>
+<div class=card><div class=hero><button class="b big" onclick="randomVoice()">✦ random voice</button><button class="p big" onclick="download()">⬇ download pack</button><input id=name type=text placeholder="voice name (optional)"><span id=st></span></div></div>
+<div class=card><div class=row>base <select id=base></select> lang <input id=lang type=text style="width:52px"><label class=chk><input type=checkbox id=live checked> live</label><button onclick="render()">▶ render</button><button onclick="reset()">reset</button></div>
+<textarea id=text rows=2></textarea>
+<label class=s style="margin-top:8px"><span class=n>morph →</span><select id=target style="width:70px"><option value="">none</option></select><span class=lim id=plim></span><input type=range id=pt min=0 max=0 value=0 oninput="ptv.textContent=this.value;sched()"><span class=v id=ptv>0</span></label></div>
+<div class=card id=sl></div>
+<div class=card><audio id=au controls autoplay></audio><canvas id=wv width=1200 height=76></canvas><canvas id=sg width=1200 height=128 style="height:150px;image-rendering:pixelated;margin-top:6px"></canvas><div id=info></div><div id=recipe style="color:var(--mut);font-size:12px;margin-top:4px;user-select:all"></div></div>
+<script>
+const C=__CFG__;const ORIG={};C.new.forEach(r=>ORIG[r.id]=r.origin);
+base.innerHTML=C.officials.map(b=>`<option ${b==C.default_base?'selected':''}>${b}</option>`).join('')+C.new.map(r=>`<option value="${r.id}">${r.id} · new${r.utmos!=null?` · MOS ${r.utmos}`:''}</option>`).join('');
+lang.value=C.lang;text.value=C.text;target.innerHTML='<option value="">none</option>'+C.officials.map(b=>`<option>${b}</option>`).join('');
+const ob=()=>ORIG[base.value]||base.value,lim=a=>C.limits[a]?(C.limits[a][ob()]||C.limits[a]['*']):C.axes.default_limit;
+const row=(a,lbl)=>{const[lo,hi]=lim(a),dead=lo==0&&hi==0;return`<label class=s style="${dead?'opacity:.35':''}"><span class=n>${lbl}</span><span class=lim>${lo} … ${hi}</span><input type=range min="${lo}" max="${hi}" step="${C.slider_step}" value=0 data-a="${a}" oninput="this.nextElementSibling.textContent=this.value;sched()"><span class=v>0</span></label>`};
+function buildSliders(){const known=C.sliders.filter(a=>!a.startsWith('mix_')),lab=C.sliders.filter(a=>a.startsWith('mix_'));
+sl.innerHTML=`<div class=grp>identity</div>${known.map(a=>row(a,a=='speed_dp_only'?'speed':a)).join('')}<div class=grp>character</div>${lab.map(a=>row(a,a.slice(4))).join('')}<details><summary>advanced · unlabeled gradient axes</summary>${[...Array(C.axes.count).keys()].map(i=>row('ax'+i,'axis '+i)).join('')}</details>`}
+function buildPair(){const k=ob()+'>'+target.value,m=C.pairs[k]!=null?C.pairs[k]:(target.value&&target.value!=ob()?1:0);pt.max=m;pt.step=C.pair_step;if(+pt.value>m)pt.value=m;ptv.textContent=pt.value;plim.textContent=target.value?`0 … ${m}`:''}
+target.onchange=()=>{buildPair();sched()};base.onchange=()=>{buildSliders();buildPair();sched()};buildSliders();buildPair();
+const q=()=>({base:base.value,target:target.value,t:+pt.value,lang:lang.value,text:text.value,name:name.value,sliders:Object.fromEntries([...document.querySelectorAll('[data-a]')].map(e=>[e.dataset.a,+e.value]))});
+let tm,busy=false,again=false;function sched(){if(!live.checked)return;clearTimeout(tm);tm=setTimeout(render,C.debounce_ms)}
+async function render(){if(busy){again=true;return}busy=true;st.textContent='rendering…';const t=Date.now();const qq=q();const r=await fetch('/render',{method:'POST',body:JSON.stringify(qq)});const j=await r.json();au.src='data:audio/wav;base64,'+j.wav;st.textContent='';draw(j.wave);drawSpec(j.spec,j.spec_shape);
+info.textContent=`${(Date.now()-t)} ms · ${j.dur_s.toFixed(2)} s · ${j.rms_db} dB RMS`;const act=Object.entries(qq.sliders).filter(([k,v])=>v).map(([k,v])=>`${k.replace('mix_','').replace('speed_dp_only','speed')} ${v>0?'+':''}${v}`).join(' · ');recipe.textContent=`recipe: ${qq.base}${qq.target&&qq.t?` → ${qq.target} @ ${qq.t}`:''}${act?' · '+act:''}`;busy=false;if(again){again=false;render()}}
+function draw(hex){const w=Int8Array.from(hex.match(/../g).map(h=>parseInt(h,16)<<24>>24)),c=wv.getContext('2d'),H=wv.height;c.fillStyle='#07080a';c.fillRect(0,0,wv.width,H);c.fillStyle='#7cf2b0';for(let i=0;i<w.length/2;i++){const lo=w[2*i]/127,hi=w[2*i+1]/127;c.fillRect(i,H/2-hi*H/2,1,Math.max(1,(hi-lo)*H/2))}}
+function drawSpec(hex,[F,M]){const s=Uint8Array.from(hex.match(/../g).map(h=>parseInt(h,16)));sg.width=F;sg.height=M;const g=sg.getContext('2d'),im=g.createImageData(F,M);for(let f=0;f<F;f++)for(let m=0;m<M;m++){const v=s[f*M+m]/255,o=4*((M-1-m)*F+f);im.data[o]=255*Math.min(1,v*1.6);im.data[o+1]=255*Math.pow(v,1.5);im.data[o+2]=90+165*Math.max(0,1-v*2.2)*(v>0.05?1:0.3);im.data[o+3]=255}g.putImageData(im,0,0)}
+function reset(){document.querySelectorAll('[data-a]').forEach(e=>{e.value=0;e.nextElementSibling.textContent='0'});pt.value=0;ptv.textContent='0';sched()}
+const rnd=(a,b)=>a+Math.random()*(b-a),snap=v=>Math.round(v/C.slider_step)*C.slider_step,pick=a=>a[Math.floor(Math.random()*a.length)];
+function randomVoice(){const R=C.random;base.value=pick(C.officials);buildSliders();target.value=Math.random()<R.pair_prob?pick(C.officials.filter(b=>b!=base.value)):'';buildPair();pt.value=target.value?snap(rnd(0.25,Math.min(+pt.max,R.t_max_cap))):0;ptv.textContent=pt.value;
+const els=[...document.querySelectorAll('[data-a]')].filter(e=>!e.dataset.a.startsWith('ax'));els.forEach(e=>{e.value=0;e.nextElementSibling.textContent='0'});const n=1+Math.floor(Math.random()*R.n_sliders_max);
+for(let i=0;i<n;i++){const e=pick(els);const[lo,hi]=lim(e.dataset.a);if(lo==0&&hi==0)continue;const v=snap(rnd(lo*R.limit_fraction,hi*R.limit_fraction));e.value=v;e.nextElementSibling.textContent=e.value}
+render()}
+async function download(){const r=await fetch('/pack',{method:'POST',body:JSON.stringify(q())});const b=await r.blob();const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=(name.value||'voice')+'.json';a.click();st.textContent='downloaded '+a.download}
+</script>

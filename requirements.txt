@@ -1,0 +1,4 @@
+supertonic>=1.3
+numpy
+soundfile
+# panel screenshot only: playwright

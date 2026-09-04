@@ -1,0 +1,44 @@
+{
+ "model_dir": null,
+ "official_styles_dir": null,
+ "new_voices_dir": "new-voices",
+ "vectors_dir": "vectors",
+ "samples_dir": "samples/en",
+ "sample_text": "A gentle breeze moved through the open window while everyone listened to the story.",
+ "sample_lang": "en",
+ "sample_format": "mp3",
+ "sample_bitrate": "96k",
+ "panel": {
+  "port": 7894,
+  "default_base": "F1",
+  "slider_step": 0.25,
+  "debounce_ms": 300,
+  "pair_step": 0.25,
+  "renorm_rows": true,
+  "wave_px": 1200,
+  "random": {
+   "n_sliders_max": 2,
+   "limit_fraction": 0.75,
+   "pair_prob": 0.7,
+   "t_max_cap": 2.0
+  },
+  "spec": {
+   "n_fft": 1024,
+   "hop": 256,
+   "n_mels": 128,
+   "fmax_hz": 8000,
+   "db_floor": -80,
+   "db_ceil": 0
+  }
+ },
+ "gradient_axes": {
+  "count": 10,
+  "default_limit": [
+   -1,
+   1
+  ]
+ },
+ "model_dir_env": "VOICELAB_MODEL_DIR",
+ "limits_file": "vectors/limits.json",
+ "_about": "Setup knobs only. Measured data (slider limits, pair ranges) lives in vectors/limits.json; per-voice metadata in new-voices/index.json."
+}

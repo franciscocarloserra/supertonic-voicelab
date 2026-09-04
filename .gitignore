@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+panel/.render.json
+new-voices/custom/
+.venv/
+venv/
+models/

@@ -1,0 +1,1144 @@
+{
+ "F1>F2": {
+  "a": "F1",
+  "b": "F2",
+  "t_max": 2.0,
+  "first_broken": 3.0,
+  "n": 4,
+  "break": [
+   "voiced@final",
+   "voiced@sweep"
+  ],
+  "at_max": {
+   "f0": 204.4,
+   "age": 34,
+   "male": 0.02,
+   "arousal": 0.63,
+   "valence": 0.52,
+   "PQ": 7.43,
+   "ecapa": 1.12
+  },
+  "delta": {
+   "age": 10,
+   "male": 0.01,
+   "arousal": 0.19,
+   "valence": 0.05,
+   "PQ": -0.32
+  }
+ },
+ "F2>M4": {
+  "a": "F2",
+  "b": "M4",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 7,
+  "break": [],
+  "at_max": {
+   "f0": 117.4,
+   "age": 33,
+   "male": 1.0,
+   "arousal": 0.38,
+   "valence": 0.36,
+   "PQ": 7.52,
+   "ecapa": 0.998
+  },
+  "delta": {
+   "age": 4,
+   "male": 0.98,
+   "arousal": -0.18,
+   "valence": -0.15,
+   "PQ": -0.16
+  }
+ },
+ "F1>F3": {
+  "a": "F1",
+  "b": "F3",
+  "t_max": 3.0,
+  "first_broken": 4.0,
+  "n": 3,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 156.4,
+   "age": 53,
+   "male": 0.0,
+   "arousal": 0.38,
+   "valence": 0.48,
+   "PQ": 7.47,
+   "ecapa": 0.922
+  },
+  "delta": {
+   "age": 29,
+   "male": -0.01,
+   "arousal": -0.06,
+   "valence": 0.01,
+   "PQ": -0.28
+  }
+ },
+ "F1>F4": {
+  "a": "F1",
+  "b": "F4",
+  "t_max": 2.0,
+  "first_broken": 3.0,
+  "n": 3,
+  "break": [
+   "pq@sweep"
+  ],
+  "at_max": {
+   "f0": 205.4,
+   "age": 25,
+   "male": 0.01,
+   "arousal": 0.62,
+   "valence": 0.43,
+   "PQ": 7.07,
+   "ecapa": 0.953
+  },
+  "delta": {
+   "age": 1,
+   "male": 0.0,
+   "arousal": 0.18,
+   "valence": -0.04,
+   "PQ": -0.68
+  }
+ },
+ "F1>F5": {
+  "a": "F1",
+  "b": "F5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 144.2,
+   "age": 29,
+   "male": 1.0,
+   "arousal": 0.5,
+   "valence": 0.49,
+   "PQ": 7.49,
+   "ecapa": 0.916
+  },
+  "delta": {
+   "age": 5,
+   "male": 0.99,
+   "arousal": 0.06,
+   "valence": 0.02,
+   "PQ": -0.26
+  }
+ },
+ "F1>M1": {
+  "a": "F1",
+  "b": "M1",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 7,
+  "break": [],
+  "at_max": {
+   "f0": 119.9,
+   "age": 57,
+   "male": 1.0,
+   "arousal": 0.64,
+   "valence": 0.52,
+   "PQ": 7.81,
+   "ecapa": 0.91
+  },
+  "delta": {
+   "age": 33,
+   "male": 0.99,
+   "arousal": 0.2,
+   "valence": 0.05,
+   "PQ": 0.06
+  }
+ },
+ "F1>M2": {
+  "a": "F1",
+  "b": "M2",
+  "t_max": 6.0,
+  "first_broken": 8.0,
+  "n": 5,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 81.8,
+   "age": 55,
+   "male": 1.0,
+   "arousal": 0.52,
+   "valence": 0.48,
+   "PQ": 7.7,
+   "ecapa": 0.87
+  },
+  "delta": {
+   "age": 31,
+   "male": 0.99,
+   "arousal": 0.08,
+   "valence": 0.01,
+   "PQ": -0.05
+  }
+ },
+ "F1>M3": {
+  "a": "F1",
+  "b": "M3",
+  "t_max": 1.5,
+  "first_broken": 3.0,
+  "n": 3,
+  "break": [
+   "wer@final",
+   "wer@sweep"
+  ],
+  "at_max": {
+   "f0": 96.9,
+   "age": 34,
+   "male": 1.0,
+   "arousal": 0.52,
+   "valence": 0.43,
+   "PQ": 7.46,
+   "ecapa": 0.897
+  },
+  "delta": {
+   "age": 10,
+   "male": 0.99,
+   "arousal": 0.08,
+   "valence": -0.04,
+   "PQ": -0.29
+  }
+ },
+ "F1>M4": {
+  "a": "F1",
+  "b": "M4",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 115.5,
+   "age": 49,
+   "male": 1.0,
+   "arousal": 0.51,
+   "valence": 0.48,
+   "PQ": 6.97,
+   "ecapa": 0.92
+  },
+  "delta": {
+   "age": 25,
+   "male": 0.99,
+   "arousal": 0.07,
+   "valence": 0.01,
+   "PQ": -0.78
+  }
+ },
+ "F1>M5": {
+  "a": "F1",
+  "b": "M5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 97.9,
+   "age": 50,
+   "male": 1.0,
+   "arousal": 0.51,
+   "valence": 0.48,
+   "PQ": 7.54,
+   "ecapa": 0.857
+  },
+  "delta": {
+   "age": 26,
+   "male": 0.99,
+   "arousal": 0.07,
+   "valence": 0.01,
+   "PQ": -0.21
+  }
+ },
+ "F2>F3": {
+  "a": "F2",
+  "b": "F3",
+  "t_max": 6.0,
+  "first_broken": 8.0,
+  "n": 5,
+  "break": [
+   "voiced@sweep"
+  ],
+  "at_max": {
+   "f0": 158.6,
+   "age": 49,
+   "male": 0.0,
+   "arousal": 0.32,
+   "valence": 0.43,
+   "PQ": 6.97,
+   "ecapa": 1.011
+  },
+  "delta": {
+   "age": 20,
+   "male": -0.02,
+   "arousal": -0.24,
+   "valence": -0.08,
+   "PQ": -0.71
+  }
+ },
+ "F2>F4": {
+  "a": "F2",
+  "b": "F4",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 198.3,
+   "age": 25,
+   "male": 0.0,
+   "arousal": 0.6,
+   "valence": 0.4,
+   "PQ": 7.15,
+   "ecapa": 0.97
+  },
+  "delta": {
+   "age": -4,
+   "male": -0.02,
+   "arousal": 0.04,
+   "valence": -0.11,
+   "PQ": -0.53
+  }
+ },
+ "F2>F5": {
+  "a": "F2",
+  "b": "F5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 160.0,
+   "age": 37,
+   "male": 0.0,
+   "arousal": 0.39,
+   "valence": 0.4,
+   "PQ": 7.88,
+   "ecapa": 1.075
+  },
+  "delta": {
+   "age": 8,
+   "male": -0.02,
+   "arousal": -0.17,
+   "valence": -0.11,
+   "PQ": 0.2
+  }
+ },
+ "F2>M1": {
+  "a": "F2",
+  "b": "M1",
+  "t_max": 3.0,
+  "first_broken": 4.0,
+  "n": 3,
+  "break": [
+   "loud@final"
+  ],
+  "at_max": {
+   "f0": 116.2,
+   "age": 42,
+   "male": 1.0,
+   "arousal": 0.52,
+   "valence": 0.39,
+   "PQ": 8.01,
+   "ecapa": 0.955
+  },
+  "delta": {
+   "age": 13,
+   "male": 0.98,
+   "arousal": -0.04,
+   "valence": -0.12,
+   "PQ": 0.33
+  }
+ },
+ "F2>M2": {
+  "a": "F2",
+  "b": "M2",
+  "t_max": 3.0,
+  "first_broken": 4.0,
+  "n": 3,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 85.1,
+   "age": 37,
+   "male": 1.0,
+   "arousal": 0.41,
+   "valence": 0.43,
+   "PQ": 7.92,
+   "ecapa": 0.986
+  },
+  "delta": {
+   "age": 8,
+   "male": 0.98,
+   "arousal": -0.15,
+   "valence": -0.08,
+   "PQ": 0.24
+  }
+ },
+ "F2>M3": {
+  "a": "F2",
+  "b": "M3",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "loud@final"
+  ],
+  "at_max": {
+   "f0": 95.4,
+   "age": 34,
+   "male": 1.0,
+   "arousal": 0.66,
+   "valence": 0.44,
+   "PQ": 7.73,
+   "ecapa": 0.939
+  },
+  "delta": {
+   "age": 5,
+   "male": 0.98,
+   "arousal": 0.1,
+   "valence": -0.07,
+   "PQ": 0.05
+  }
+ },
+ "F2>M5": {
+  "a": "F2",
+  "b": "M5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 89.2,
+   "age": 33,
+   "male": 1.0,
+   "arousal": 0.37,
+   "valence": 0.39,
+   "PQ": 7.78,
+   "ecapa": 1.051
+  },
+  "delta": {
+   "age": 4,
+   "male": 0.98,
+   "arousal": -0.19,
+   "valence": -0.12,
+   "PQ": 0.1
+  }
+ },
+ "F3>F4": {
+  "a": "F3",
+  "b": "F4",
+  "t_max": 2.0,
+  "first_broken": 3.0,
+  "n": 4,
+  "break": [
+   "pq@sweep"
+  ],
+  "at_max": {
+   "f0": 207.8,
+   "age": 22,
+   "male": 0.01,
+   "arousal": 0.62,
+   "valence": 0.46,
+   "PQ": 7.19,
+   "ecapa": 1.002
+  },
+  "delta": {
+   "age": -15,
+   "male": 0.01,
+   "arousal": 0.17,
+   "valence": -0.06,
+   "PQ": -0.68
+  }
+ },
+ "F5>M4": {
+  "a": "F5",
+  "b": "M4",
+  "t_max": 3.0,
+  "first_broken": 4.0,
+  "n": 4,
+  "break": [
+   "wer@final"
+  ],
+  "at_max": {
+   "f0": 112.2,
+   "age": 34,
+   "male": 1.0,
+   "arousal": 0.44,
+   "valence": 0.44,
+   "PQ": 7.58,
+   "ecapa": 0.957
+  },
+  "delta": {
+   "age": -1,
+   "male": 0.99,
+   "arousal": -0.02,
+   "valence": -0.08,
+   "PQ": -0.2
+  }
+ },
+ "F3>F5": {
+  "a": "F3",
+  "b": "F5",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "pq@sweep"
+  ],
+  "at_max": {
+   "f0": 158.7,
+   "age": 33,
+   "male": 0.01,
+   "arousal": 0.54,
+   "valence": 0.42,
+   "PQ": 7.46,
+   "ecapa": 0.72
+  },
+  "delta": {
+   "age": -4,
+   "male": 0.01,
+   "arousal": 0.09,
+   "valence": -0.1,
+   "PQ": -0.41
+  }
+ },
+ "F3>M1": {
+  "a": "F3",
+  "b": "M1",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 3,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 127.3,
+   "age": 50,
+   "male": 1.0,
+   "arousal": 0.69,
+   "valence": 0.48,
+   "PQ": 7.67,
+   "ecapa": 0.899
+  },
+  "delta": {
+   "age": 13,
+   "male": 1.0,
+   "arousal": 0.24,
+   "valence": -0.04,
+   "PQ": -0.2
+  }
+ },
+ "F3>M2": {
+  "a": "F3",
+  "b": "M2",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 86.1,
+   "age": 49,
+   "male": 1.0,
+   "arousal": 0.58,
+   "valence": 0.48,
+   "PQ": 7.24,
+   "ecapa": 0.929
+  },
+  "delta": {
+   "age": 12,
+   "male": 1.0,
+   "arousal": 0.13,
+   "valence": -0.04,
+   "PQ": -0.63
+  }
+ },
+ "F3>M3": {
+  "a": "F3",
+  "b": "M3",
+  "t_max": 2.0,
+  "first_broken": 3.0,
+  "n": 3,
+  "break": [
+   "wer@final"
+  ],
+  "at_max": {
+   "f0": 98.7,
+   "age": 33,
+   "male": 1.0,
+   "arousal": 0.62,
+   "valence": 0.43,
+   "PQ": 7.4,
+   "ecapa": 0.907
+  },
+  "delta": {
+   "age": -4,
+   "male": 1.0,
+   "arousal": 0.17,
+   "valence": -0.09,
+   "PQ": -0.47
+  }
+ },
+ "F3>M4": {
+  "a": "F3",
+  "b": "M4",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 3,
+  "break": [
+   "pq@sweep"
+  ],
+  "at_max": {
+   "f0": 117.7,
+   "age": 40,
+   "male": 1.0,
+   "arousal": 0.52,
+   "valence": 0.38,
+   "PQ": 7.29,
+   "ecapa": 0.941
+  },
+  "delta": {
+   "age": 3,
+   "male": 1.0,
+   "arousal": 0.07,
+   "valence": -0.14,
+   "PQ": -0.58
+  }
+ },
+ "F3>M5": {
+  "a": "F3",
+  "b": "M5",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "pq@sweep"
+  ],
+  "at_max": {
+   "f0": 90.7,
+   "age": 42,
+   "male": 1.0,
+   "arousal": 0.55,
+   "valence": 0.51,
+   "PQ": 6.93,
+   "ecapa": 0.916
+  },
+  "delta": {
+   "age": 5,
+   "male": 1.0,
+   "arousal": 0.1,
+   "valence": -0.01,
+   "PQ": -0.94
+  }
+ },
+ "F4>F5": {
+  "a": "F4",
+  "b": "F5",
+  "t_max": 3.0,
+  "first_broken": 4.0,
+  "n": 3,
+  "break": [
+   "voiced@sweep"
+  ],
+  "at_max": {
+   "f0": 155.2,
+   "age": 35,
+   "male": 0.01,
+   "arousal": 0.39,
+   "valence": 0.42,
+   "PQ": 7.68,
+   "ecapa": 0.888
+  },
+  "delta": {
+   "age": 13,
+   "male": 0.0,
+   "arousal": -0.22,
+   "valence": -0.15,
+   "PQ": -0.1
+  }
+ },
+ "F4>M1": {
+  "a": "F4",
+  "b": "M1",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 99.2,
+   "age": 54,
+   "male": 1.0,
+   "arousal": 0.56,
+   "valence": 0.43,
+   "PQ": 7.92,
+   "ecapa": 0.856
+  },
+  "delta": {
+   "age": 32,
+   "male": 0.99,
+   "arousal": -0.05,
+   "valence": -0.14,
+   "PQ": 0.14
+  }
+ },
+ "F4>M2": {
+  "a": "F4",
+  "b": "M2",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 82.7,
+   "age": 48,
+   "male": 1.0,
+   "arousal": 0.5,
+   "valence": 0.4,
+   "PQ": 7.89,
+   "ecapa": 0.939
+  },
+  "delta": {
+   "age": 26,
+   "male": 0.99,
+   "arousal": -0.11,
+   "valence": -0.17,
+   "PQ": 0.11
+  }
+ },
+ "F4>M3": {
+  "a": "F4",
+  "b": "M3",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 92.8,
+   "age": 31,
+   "male": 1.0,
+   "arousal": 0.61,
+   "valence": 0.52,
+   "PQ": 7.63,
+   "ecapa": 0.925
+  },
+  "delta": {
+   "age": 9,
+   "male": 0.99,
+   "arousal": 0.0,
+   "valence": -0.05,
+   "PQ": -0.15
+  }
+ },
+ "F4>M4": {
+  "a": "F4",
+  "b": "M4",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 112.1,
+   "age": 50,
+   "male": 1.0,
+   "arousal": 0.43,
+   "valence": 0.38,
+   "PQ": 7.49,
+   "ecapa": 0.985
+  },
+  "delta": {
+   "age": 28,
+   "male": 0.99,
+   "arousal": -0.18,
+   "valence": -0.19,
+   "PQ": -0.29
+  }
+ },
+ "F4>M5": {
+  "a": "F4",
+  "b": "M5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 86.1,
+   "age": 38,
+   "male": 1.0,
+   "arousal": 0.44,
+   "valence": 0.48,
+   "PQ": 7.65,
+   "ecapa": 0.94
+  },
+  "delta": {
+   "age": 16,
+   "male": 0.99,
+   "arousal": -0.17,
+   "valence": -0.09,
+   "PQ": -0.13
+  }
+ },
+ "F5>M1": {
+  "a": "F5",
+  "b": "M1",
+  "t_max": 6.0,
+  "first_broken": 8.0,
+  "n": 5,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 117.6,
+   "age": 53,
+   "male": 1.0,
+   "arousal": 0.58,
+   "valence": 0.42,
+   "PQ": 7.58,
+   "ecapa": 0.909
+  },
+  "delta": {
+   "age": 18,
+   "male": 0.99,
+   "arousal": 0.12,
+   "valence": -0.1,
+   "PQ": -0.2
+  }
+ },
+ "F5>M2": {
+  "a": "F5",
+  "b": "M2",
+  "t_max": 2.0,
+  "first_broken": 3.0,
+  "n": 3,
+  "break": [
+   "loud@final"
+  ],
+  "at_max": {
+   "f0": 86.1,
+   "age": 40,
+   "male": 1.0,
+   "arousal": 0.51,
+   "valence": 0.49,
+   "PQ": 7.79,
+   "ecapa": 0.799
+  },
+  "delta": {
+   "age": 5,
+   "male": 0.99,
+   "arousal": 0.05,
+   "valence": -0.03,
+   "PQ": 0.01
+  }
+ },
+ "F5>M3": {
+  "a": "F5",
+  "b": "M3",
+  "t_max": 2.0,
+  "first_broken": 3.0,
+  "n": 3,
+  "break": [
+   "wer@final"
+  ],
+  "at_max": {
+   "f0": 96.5,
+   "age": 42,
+   "male": 1.0,
+   "arousal": 0.56,
+   "valence": 0.44,
+   "PQ": 7.29,
+   "ecapa": 0.927
+  },
+  "delta": {
+   "age": 7,
+   "male": 0.99,
+   "arousal": 0.1,
+   "valence": -0.08,
+   "PQ": -0.49
+  }
+ },
+ "F5>M5": {
+  "a": "F5",
+  "b": "M5",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 90.6,
+   "age": 46,
+   "male": 1.0,
+   "arousal": 0.45,
+   "valence": 0.41,
+   "PQ": 7.85,
+   "ecapa": 0.856
+  },
+  "delta": {
+   "age": 11,
+   "male": 0.99,
+   "arousal": -0.01,
+   "valence": -0.11,
+   "PQ": 0.07
+  }
+ },
+ "M1>M2": {
+  "a": "M1",
+  "b": "M2",
+  "t_max": 8.0,
+  "first_broken": 12.0,
+  "n": 6,
+  "break": [
+   "loud@sweep"
+  ],
+  "at_max": {
+   "f0": 77.8,
+   "age": 36,
+   "male": 0.99,
+   "arousal": 0.41,
+   "valence": 0.42,
+   "PQ": 7.36,
+   "ecapa": 0.885
+  },
+  "delta": {
+   "age": 3,
+   "male": -0.01,
+   "arousal": -0.15,
+   "valence": -0.09,
+   "PQ": -0.68
+  }
+ },
+ "M1>M3": {
+  "a": "M1",
+  "b": "M3",
+  "t_max": 1.5,
+  "first_broken": 2.0,
+  "n": 3,
+  "break": [
+   "pq@sweep",
+   "wer@final"
+  ],
+  "at_max": {
+   "f0": 94.9,
+   "age": 22,
+   "male": 1.0,
+   "arousal": 0.52,
+   "valence": 0.41,
+   "PQ": 7.22,
+   "ecapa": 0.728
+  },
+  "delta": {
+   "age": -11,
+   "male": 0.0,
+   "arousal": -0.04,
+   "valence": -0.1,
+   "PQ": -0.82
+  }
+ },
+ "M1>M4": {
+  "a": "M1",
+  "b": "M4",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 196.7,
+   "age": 26,
+   "male": 0.01,
+   "arousal": 0.52,
+   "valence": 0.42,
+   "PQ": 6.93,
+   "ecapa": 0.981
+  },
+  "delta": {
+   "age": -7,
+   "male": -0.99,
+   "arousal": -0.04,
+   "valence": -0.09,
+   "PQ": -1.11
+  }
+ },
+ "M1>M5": {
+  "a": "M1",
+  "b": "M5",
+  "t_max": 8.0,
+  "first_broken": 12.0,
+  "n": 6,
+  "break": [
+   "voiced@sweep"
+  ],
+  "at_max": {
+   "f0": 89.5,
+   "age": 30,
+   "male": 1.0,
+   "arousal": 0.19,
+   "valence": 0.37,
+   "PQ": 7.13,
+   "ecapa": 1.101
+  },
+  "delta": {
+   "age": -3,
+   "male": 0.0,
+   "arousal": -0.37,
+   "valence": -0.14,
+   "PQ": -0.91
+  }
+ },
+ "M2>M3": {
+  "a": "M2",
+  "b": "M3",
+  "t_max": 1.25,
+  "first_broken": 1.5,
+  "n": 3,
+  "break": [
+   "wer@final",
+   "wer@sweep"
+  ],
+  "at_max": {
+   "f0": 98.0,
+   "age": 22,
+   "male": 1.0,
+   "arousal": 0.52,
+   "valence": 0.45,
+   "PQ": 7.5,
+   "ecapa": 0.526
+  },
+  "delta": {
+   "age": -18,
+   "male": 0.0,
+   "arousal": 0.07,
+   "valence": -0.05,
+   "PQ": -0.53
+  }
+ },
+ "M2>M4": {
+  "a": "M2",
+  "b": "M4",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 229.4,
+   "age": 26,
+   "male": 0.01,
+   "arousal": 0.44,
+   "valence": 0.39,
+   "PQ": 6.8,
+   "ecapa": 1.013
+  },
+  "delta": {
+   "age": -14,
+   "male": -0.99,
+   "arousal": -0.01,
+   "valence": -0.11,
+   "PQ": -1.23
+  }
+ },
+ "M2>M5": {
+  "a": "M2",
+  "b": "M5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 133.4,
+   "age": 31,
+   "male": 0.97,
+   "arousal": 0.42,
+   "valence": 0.47,
+   "PQ": 7.37,
+   "ecapa": 1.053
+  },
+  "delta": {
+   "age": -9,
+   "male": -0.03,
+   "arousal": -0.03,
+   "valence": -0.03,
+   "PQ": -0.66
+  }
+ },
+ "M3>M4": {
+  "a": "M3",
+  "b": "M4",
+  "t_max": 4.0,
+  "first_broken": 6.0,
+  "n": 4,
+  "break": [
+   "pq@sweep"
+  ],
+  "at_max": {
+   "f0": 149.6,
+   "age": 48,
+   "male": 0.0,
+   "arousal": 0.35,
+   "valence": 0.4,
+   "PQ": 7.28,
+   "ecapa": 0.993
+  },
+  "delta": {
+   "age": 21,
+   "male": -1.0,
+   "arousal": -0.16,
+   "valence": -0.13,
+   "PQ": -0.52
+  }
+ },
+ "M3>M5": {
+  "a": "M3",
+  "b": "M5",
+  "t_max": 3.0,
+  "first_broken": 4.0,
+  "n": 3,
+  "break": [
+   "wer@sweep"
+  ],
+  "at_max": {
+   "f0": 85.6,
+   "age": 44,
+   "male": 1.0,
+   "arousal": 0.24,
+   "valence": 0.39,
+   "PQ": 7.86,
+   "ecapa": 0.938
+  },
+  "delta": {
+   "age": 17,
+   "male": 0.0,
+   "arousal": -0.27,
+   "valence": -0.14,
+   "PQ": 0.06
+  }
+ },
+ "M4>M5": {
+  "a": "M4",
+  "b": "M5",
+  "t_max": 12.0,
+  "first_broken": null,
+  "n": 6,
+  "break": [],
+  "at_max": {
+   "f0": 84.4,
+   "age": 56,
+   "male": 1.0,
+   "arousal": 0.7,
+   "valence": 0.61,
+   "PQ": 7.69,
+   "ecapa": 1.05
+  },
+  "delta": {
+   "age": 32,
+   "male": 0.0,
+   "arousal": 0.25,
+   "valence": 0.13,
+   "PQ": -0.08
+  }
+ }
+}

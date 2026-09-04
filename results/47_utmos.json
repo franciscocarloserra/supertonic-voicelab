@@ -1,0 +1,392 @@
+[
+ {
+  "id": "P23",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.625,
+  "PQ": 8.04,
+  "age": 34
+ },
+ {
+  "id": "P35",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.51,
+  "PQ": 8.01,
+  "age": 36
+ },
+ {
+  "id": "P12",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.508,
+  "PQ": 7.85,
+  "age": 32
+ },
+ {
+  "id": "P26",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.492,
+  "PQ": 7.94,
+  "age": 36
+ },
+ {
+  "id": "P01",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.424,
+  "PQ": 7.82,
+  "age": 48
+ },
+ {
+  "id": "P36",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.414,
+  "PQ": 7.98,
+  "age": 53
+ },
+ {
+  "id": "M5",
+  "kind": "official",
+  "utmos": 3.402,
+  "PQ": 8.1,
+  "age": 35
+ },
+ {
+  "id": "P10",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.398,
+  "PQ": 7.75,
+  "age": 32
+ },
+ {
+  "id": "F1",
+  "kind": "official",
+  "utmos": 3.396,
+  "PQ": 7.75,
+  "age": 24
+ },
+ {
+  "id": "P03",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.352,
+  "PQ": 7.81,
+  "age": 41
+ },
+ {
+  "id": "P08",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.316,
+  "PQ": 7.81,
+  "age": 49
+ },
+ {
+  "id": "F5",
+  "kind": "official",
+  "utmos": 3.299,
+  "PQ": 7.78,
+  "age": 35
+ },
+ {
+  "id": "P00",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.295,
+  "PQ": 8.07,
+  "age": 36
+ },
+ {
+  "id": "P22",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.254,
+  "PQ": 7.92,
+  "age": 27
+ },
+ {
+  "id": "P14",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.219,
+  "PQ": 7.5,
+  "age": 20
+ },
+ {
+  "id": "F3",
+  "kind": "official",
+  "utmos": 3.182,
+  "PQ": 7.87,
+  "age": 37
+ },
+ {
+  "id": "P28",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.146,
+  "PQ": 7.72,
+  "age": 37
+ },
+ {
+  "id": "P06",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.141,
+  "PQ": 7.73,
+  "age": 28
+ },
+ {
+  "id": "P04",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.139,
+  "PQ": 8.09,
+  "age": 38
+ },
+ {
+  "id": "P30",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.119,
+  "PQ": 8.04,
+  "age": 35
+ },
+ {
+  "id": "P27",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.109,
+  "PQ": 8.02,
+  "age": 34
+ },
+ {
+  "id": "P07",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.102,
+  "PQ": 7.95,
+  "age": 32
+ },
+ {
+  "id": "P24",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.098,
+  "PQ": 7.84,
+  "age": 27
+ },
+ {
+  "id": "P02",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.096,
+  "PQ": 7.85,
+  "age": 30
+ },
+ {
+  "id": "P20",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.088,
+  "PQ": 7.65,
+  "age": 45
+ },
+ {
+  "id": "P09",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.086,
+  "PQ": 7.79,
+  "age": 49
+ },
+ {
+  "id": "P31",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.086,
+  "PQ": 7.61,
+  "age": 26
+ },
+ {
+  "id": "P15",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.072,
+  "PQ": 7.99,
+  "age": 27
+ },
+ {
+  "id": "M4",
+  "kind": "official",
+  "utmos": 3.037,
+  "PQ": 7.77,
+  "age": 23
+ },
+ {
+  "id": "M2",
+  "kind": "official",
+  "utmos": 3.029,
+  "PQ": 8.03,
+  "age": 40
+ },
+ {
+  "id": "P32",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.027,
+  "PQ": 7.97,
+  "age": 37
+ },
+ {
+  "id": "P16",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 3.014,
+  "PQ": 7.69,
+  "age": 45
+ },
+ {
+  "id": "P05",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.994,
+  "PQ": 7.97,
+  "age": 33
+ },
+ {
+  "id": "F4",
+  "kind": "official",
+  "utmos": 2.99,
+  "PQ": 7.78,
+  "age": 22
+ },
+ {
+  "id": "P19",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.986,
+  "PQ": 7.79,
+  "age": 19
+ },
+ {
+  "id": "P38",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.979,
+  "PQ": 7.98,
+  "age": 34
+ },
+ {
+  "id": "P13",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.969,
+  "PQ": 7.83,
+  "age": 28
+ },
+ {
+  "id": "M1",
+  "kind": "official",
+  "utmos": 2.963,
+  "PQ": 8.04,
+  "age": 32
+ },
+ {
+  "id": "P17",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.947,
+  "PQ": 7.95,
+  "age": 40
+ },
+ {
+  "id": "P21",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.93,
+  "PQ": 7.69,
+  "age": 39
+ },
+ {
+  "id": "P11",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.9,
+  "PQ": 8.03,
+  "age": 35
+ },
+ {
+  "id": "M3",
+  "kind": "official",
+  "utmos": 2.885,
+  "PQ": 7.8,
+  "age": 27
+ },
+ {
+  "id": "P34",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.867,
+  "PQ": 7.96,
+  "age": 25
+ },
+ {
+  "id": "P29",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.797,
+  "PQ": 8.0,
+  "age": 27
+ },
+ {
+  "id": "P18",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.729,
+  "PQ": 7.95,
+  "age": 45
+ },
+ {
+  "id": "P37",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.689,
+  "PQ": 7.95,
+  "age": 38
+ },
+ {
+  "id": "P39",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.682,
+  "PQ": 7.61,
+  "age": 18
+ },
+ {
+  "id": "P25",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.645,
+  "PQ": 7.44,
+  "age": 19
+ },
+ {
+  "id": "F2",
+  "kind": "official",
+  "utmos": 2.576,
+  "PQ": 7.68,
+  "age": 29
+ },
+ {
+  "id": "P33",
+  "kind": "gen",
+  "recipe": "",
+  "utmos": 2.461,
+  "PQ": 6.97,
+  "age": 22
+ }
+]

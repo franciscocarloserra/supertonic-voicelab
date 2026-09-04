@@ -1,0 +1,581 @@
+[
+ {
+  "id": "P23",
+  "base": "M4",
+  "target": "M5",
+  "t": 0.75,
+  "sliders": {
+   "speed_dp_only": -0.5
+  },
+  "sex": "M",
+  "age": 23,
+  "PQ": 7.92,
+  "utmos": 3.625,
+  "sample": "samples/en/P23.mp3",
+  "pack": "new-voices/P23.json"
+ },
+ {
+  "id": "P35",
+  "base": "M1",
+  "target": "M5",
+  "t": 1.5,
+  "sliders": {},
+  "sex": "M",
+  "age": 25,
+  "PQ": 7.77,
+  "utmos": 3.51,
+  "sample": "samples/en/P35.mp3",
+  "pack": "new-voices/P35.json"
+ },
+ {
+  "id": "P12",
+  "base": "F5",
+  "target": "M1",
+  "t": 0.5,
+  "sliders": {
+   "ax5": 1.0,
+   "gender": 0.5
+  },
+  "sex": "F",
+  "age": 28,
+  "PQ": 7.72,
+  "utmos": 3.508,
+  "sample": "samples/en/P12.mp3",
+  "pack": "new-voices/P12.json"
+ },
+ {
+  "id": "P26",
+  "base": "M1",
+  "target": "M5",
+  "t": 1.75,
+  "sliders": {
+   "speed_dp_only": -0.25
+  },
+  "sex": "M",
+  "age": 26,
+  "PQ": 7.79,
+  "utmos": 3.492,
+  "sample": "samples/en/P26.mp3",
+  "pack": "new-voices/P26.json"
+ },
+ {
+  "id": "P01",
+  "base": "F1",
+  "target": "F3",
+  "t": 1.5,
+  "sliders": {
+   "speed_dp_only": 0.5
+  },
+  "sex": "F",
+  "age": 43,
+  "PQ": 7.84,
+  "utmos": 3.424,
+  "sample": "samples/en/P01.mp3",
+  "pack": "new-voices/P01.json"
+ },
+ {
+  "id": "P36",
+  "base": "F1",
+  "target": "M5",
+  "t": 2.25,
+  "sliders": {},
+  "sex": "M",
+  "age": 47,
+  "PQ": 7.81,
+  "utmos": 3.414,
+  "sample": "samples/en/P36.mp3",
+  "pack": "new-voices/P36.json"
+ },
+ {
+  "id": "P10",
+  "base": "F1",
+  "target": "M4",
+  "t": 1.5,
+  "sliders": {},
+  "sex": "M",
+  "age": 26,
+  "PQ": 7.68,
+  "utmos": 3.398,
+  "sample": "samples/en/P10.mp3",
+  "pack": "new-voices/P10.json"
+ },
+ {
+  "id": "P03",
+  "base": "F5",
+  "target": "M3",
+  "t": 0.75,
+  "sliders": {
+   "speed_dp_only": -0.5,
+   "gender": -1.75
+  },
+  "sex": "M",
+  "age": 38,
+  "PQ": 7.82,
+  "utmos": 3.352,
+  "sample": "samples/en/P03.mp3",
+  "pack": "new-voices/P03.json"
+ },
+ {
+  "id": "P08",
+  "base": "M1",
+  "target": "M2",
+  "t": 2.25,
+  "sliders": {},
+  "sex": "M",
+  "age": 36,
+  "PQ": 7.68,
+  "utmos": 3.316,
+  "sample": "samples/en/P08.mp3",
+  "pack": "new-voices/P08.json"
+ },
+ {
+  "id": "P00",
+  "base": "F2",
+  "target": "M5",
+  "t": 0.75,
+  "sliders": {},
+  "sex": "M",
+  "age": 29,
+  "PQ": 7.96,
+  "utmos": 3.295,
+  "sample": "samples/en/P00.mp3",
+  "pack": "new-voices/P00.json"
+ },
+ {
+  "id": "P22",
+  "base": "F3",
+  "target": "F4",
+  "t": 0.5,
+  "sliders": {},
+  "sex": "F",
+  "age": 29,
+  "PQ": 7.85,
+  "utmos": 3.254,
+  "sample": "samples/en/P22.mp3",
+  "pack": "new-voices/P22.json"
+ },
+ {
+  "id": "P14",
+  "base": "M3",
+  "target": "M4",
+  "t": 1.75,
+  "sliders": {
+   "ax5": 1.0
+  },
+  "sex": "M",
+  "age": 25,
+  "PQ": 7.28,
+  "utmos": 3.219,
+  "sample": "samples/en/P14.mp3",
+  "pack": "new-voices/P14.json"
+ },
+ {
+  "id": "P28",
+  "base": "M4",
+  "target": "M5",
+  "t": 1.0,
+  "sliders": {
+   "speed_dp_only": 1.5,
+   "ax3": -2.75
+  },
+  "sex": "M",
+  "age": 39,
+  "PQ": 7.54,
+  "utmos": 3.146,
+  "sample": "samples/en/P28.mp3",
+  "pack": "new-voices/P28.json"
+ },
+ {
+  "id": "P06",
+  "base": "F3",
+  "target": "M4",
+  "t": 1.5,
+  "sliders": {},
+  "sex": "M",
+  "age": 25,
+  "PQ": 7.64,
+  "utmos": 3.141,
+  "sample": "samples/en/P06.mp3",
+  "pack": "new-voices/P06.json"
+ },
+ {
+  "id": "P04",
+  "base": "M3",
+  "target": "M5",
+  "t": 1.5,
+  "sliders": {
+   "ax5": 1.25,
+   "ax2": -0.25
+  },
+  "sex": "M",
+  "age": 38,
+  "PQ": 7.8,
+  "utmos": 3.139,
+  "sample": "samples/en/P04.mp3",
+  "pack": "new-voices/P04.json"
+ },
+ {
+  "id": "P30",
+  "base": "F3",
+  "target": "M2",
+  "t": 0.75,
+  "sliders": {},
+  "sex": "M",
+  "age": 30,
+  "PQ": 8.0,
+  "utmos": 3.119,
+  "sample": "samples/en/P30.mp3",
+  "pack": "new-voices/P30.json"
+ },
+ {
+  "id": "P27",
+  "base": "F2",
+  "target": "M5",
+  "t": 1.75,
+  "sliders": {
+   "ax9": 1.0
+  },
+  "sex": "M",
+  "age": 31,
+  "PQ": 7.94,
+  "utmos": 3.109,
+  "sample": "samples/en/P27.mp3",
+  "pack": "new-voices/P27.json"
+ },
+ {
+  "id": "P07",
+  "base": "F2",
+  "target": "M5",
+  "t": 2.0,
+  "sliders": {},
+  "sex": "M",
+  "age": 33,
+  "PQ": 7.87,
+  "utmos": 3.102,
+  "sample": "samples/en/P07.mp3",
+  "pack": "new-voices/P07.json"
+ },
+ {
+  "id": "P24",
+  "base": "F4",
+  "target": "F5",
+  "t": 0.5,
+  "sliders": {
+   "ax5": 1.0
+  },
+  "sex": "F",
+  "age": 26,
+  "PQ": 7.65,
+  "utmos": 3.098,
+  "sample": "samples/en/P24.mp3",
+  "pack": "new-voices/P24.json"
+ },
+ {
+  "id": "P02",
+  "base": "F1",
+  "target": "F5",
+  "t": 0.5,
+  "sliders": {},
+  "sex": "F",
+  "age": 26,
+  "PQ": 7.77,
+  "utmos": 3.096,
+  "sample": "samples/en/P02.mp3",
+  "pack": "new-voices/P02.json"
+ },
+ {
+  "id": "P20",
+  "base": "F2",
+  "target": "F3",
+  "t": 2.75,
+  "sliders": {},
+  "sex": "F",
+  "age": 43,
+  "PQ": 7.31,
+  "utmos": 3.088,
+  "sample": "samples/en/P20.mp3",
+  "pack": "new-voices/P20.json"
+ },
+ {
+  "id": "P31",
+  "base": "F2",
+  "target": "M3",
+  "t": 2.75,
+  "sliders": {
+   "gender": 0.75
+  },
+  "sex": "M",
+  "age": 27,
+  "PQ": 7.3,
+  "utmos": 3.086,
+  "sample": "samples/en/P31.mp3",
+  "pack": "new-voices/P31.json"
+ },
+ {
+  "id": "P09",
+  "base": "F2",
+  "target": "F3",
+  "t": 2.75,
+  "sliders": {
+   "mix_age": 1.25
+  },
+  "sex": "F",
+  "age": 50,
+  "PQ": 7.59,
+  "utmos": 3.086,
+  "sample": "samples/en/P09.mp3",
+  "pack": "new-voices/P09.json"
+ },
+ {
+  "id": "P15",
+  "base": "F3",
+  "target": "M5",
+  "t": 0.5,
+  "sliders": {},
+  "sex": "M",
+  "age": 23,
+  "PQ": 7.87,
+  "utmos": 3.072,
+  "sample": "samples/en/P15.mp3",
+  "pack": "new-voices/P15.json"
+ },
+ {
+  "id": "P32",
+  "base": "M1",
+  "target": "M2",
+  "t": 0.75,
+  "sliders": {
+   "speed_dp_only": 1.25,
+   "ax9": 0.75
+  },
+  "sex": "M",
+  "age": 33,
+  "PQ": 7.98,
+  "utmos": 3.027,
+  "sample": "samples/en/P32.mp3",
+  "pack": "new-voices/P32.json"
+ },
+ {
+  "id": "P16",
+  "base": "F3",
+  "target": "M5",
+  "t": 2.75,
+  "sliders": {},
+  "sex": "M",
+  "age": 41,
+  "PQ": 7.54,
+  "utmos": 3.014,
+  "sample": "samples/en/P16.mp3",
+  "pack": "new-voices/P16.json"
+ },
+ {
+  "id": "P05",
+  "base": "F5",
+  "target": "M5",
+  "t": 1.75,
+  "sliders": {
+   "ax2": -0.5,
+   "mix_arousal": -2.5
+  },
+  "sex": "M",
+  "age": 37,
+  "PQ": 7.59,
+  "utmos": 2.994,
+  "sample": "samples/en/P05.mp3",
+  "pack": "new-voices/P05.json"
+ },
+ {
+  "id": "P19",
+  "base": "F4",
+  "target": "M4",
+  "t": 1.0,
+  "sliders": {
+   "ax9": 1.25
+  },
+  "sex": "M",
+  "age": 19,
+  "PQ": 7.77,
+  "utmos": 2.986,
+  "sample": "samples/en/P19.mp3",
+  "pack": "new-voices/P19.json"
+ },
+ {
+  "id": "P38",
+  "base": "F1",
+  "target": "M1",
+  "t": 0.5,
+  "sliders": {
+   "speed_dp_only": 0.75
+  },
+  "sex": "F",
+  "age": 32,
+  "PQ": 7.86,
+  "utmos": 2.979,
+  "sample": "samples/en/P38.mp3",
+  "pack": "new-voices/P38.json"
+ },
+ {
+  "id": "P13",
+  "base": "F1",
+  "target": "F5",
+  "t": 0.75,
+  "sliders": {
+   "mix_arousal": 0.5
+  },
+  "sex": "F",
+  "age": 28,
+  "PQ": 7.85,
+  "utmos": 2.969,
+  "sample": "samples/en/P13.mp3",
+  "pack": "new-voices/P13.json"
+ },
+ {
+  "id": "P17",
+  "base": "F5",
+  "target": "M5",
+  "t": 1.5,
+  "sliders": {
+   "speed_dp_only": 1.25
+  },
+  "sex": "M",
+  "age": 33,
+  "PQ": 7.93,
+  "utmos": 2.947,
+  "sample": "samples/en/P17.mp3",
+  "pack": "new-voices/P17.json"
+ },
+ {
+  "id": "P21",
+  "base": "F4",
+  "target": "M4",
+  "t": 2.75,
+  "sliders": {
+   "mix_arousal": 0.5,
+   "ax7": -1.25
+  },
+  "sex": "M",
+  "age": 40,
+  "PQ": 7.61,
+  "utmos": 2.93,
+  "sample": "samples/en/P21.mp3",
+  "pack": "new-voices/P21.json"
+ },
+ {
+  "id": "P11",
+  "base": "M2",
+  "target": "M5",
+  "t": 1.25,
+  "sliders": {
+   "ax7": -0.5,
+   "ax3": -1.5
+  },
+  "sex": "M",
+  "age": 35,
+  "PQ": 7.76,
+  "utmos": 2.9,
+  "sample": "samples/en/P11.mp3",
+  "pack": "new-voices/P11.json"
+ },
+ {
+  "id": "P34",
+  "base": "F5",
+  "target": "M3",
+  "t": 0.75,
+  "sliders": {},
+  "sex": "M",
+  "age": 23,
+  "PQ": 7.84,
+  "utmos": 2.867,
+  "sample": "samples/en/P34.mp3",
+  "pack": "new-voices/P34.json"
+ },
+ {
+  "id": "P29",
+  "base": "F3",
+  "target": "M3",
+  "t": 0.75,
+  "sliders": {
+   "ax3": -1.25
+  },
+  "sex": "M",
+  "age": 24,
+  "PQ": 7.85,
+  "utmos": 2.797,
+  "sample": "samples/en/P29.mp3",
+  "pack": "new-voices/P29.json"
+ },
+ {
+  "id": "P18",
+  "base": "F4",
+  "target": "M3",
+  "t": 2.25,
+  "sliders": {
+   "ax5": 1.25,
+   "mix_age": 0.75
+  },
+  "sex": "M",
+  "age": 38,
+  "PQ": 7.81,
+  "utmos": 2.729,
+  "sample": "samples/en/P18.mp3",
+  "pack": "new-voices/P18.json"
+ },
+ {
+  "id": "P37",
+  "base": "F3",
+  "target": "M1",
+  "t": 0.75,
+  "sliders": {
+   "ax2": 0.5,
+   "ax3": -1.5
+  },
+  "sex": "M",
+  "age": 31,
+  "PQ": 7.91,
+  "utmos": 2.689,
+  "sample": "samples/en/P37.mp3",
+  "pack": "new-voices/P37.json"
+ },
+ {
+  "id": "P39",
+  "base": "M2",
+  "target": "M4",
+  "t": 1.75,
+  "sliders": {},
+  "sex": "M",
+  "age": 21,
+  "PQ": 7.47,
+  "utmos": 2.682,
+  "sample": "samples/en/P39.mp3",
+  "pack": "new-voices/P39.json"
+ },
+ {
+  "id": "P25",
+  "base": "M1",
+  "target": "M4",
+  "t": 2.25,
+  "sliders": {},
+  "sex": "M",
+  "age": 19,
+  "PQ": 7.09,
+  "utmos": 2.645,
+  "sample": "samples/en/P25.mp3",
+  "pack": "new-voices/P25.json"
+ },
+ {
+  "id": "P33",
+  "base": "F2",
+  "target": "F5",
+  "t": 3.0,
+  "sliders": {
+   "ax2": -0.5,
+   "mix_age": -5.25
+  },
+  "sex": "F",
+  "age": 20,
+  "PQ": 6.77,
+  "utmos": 2.461,
+  "sample": "samples/en/P33.mp3",
+  "pack": "new-voices/P33.json"
+ }
+]
