@@ -1,4 +1,4 @@
-<h1 align="center">Supertonic VoiceLab</h1>
+<h1 align="center">Supertonic VoiceLab & New VoicePacks</h1>
 <p align="center"><b>40 brand-new voices for Supertonic-3, free to download. Plus a one-click lab to make your own.</b></p>
 <p align="center">
 <a href="new-voices/">⬇ Download the voice packs</a> ·
